@@ -1,0 +1,41 @@
+.lau-cont {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 30px;
+
+}
+.lau-div {
+    background-color: rgb(48, 37, 23);
+}
+.lau-ul {
+    list-style: none;
+}
+.lau-ul > li {
+    margin: 15px;
+    background-color: rgb(48, 37, 23);
+    border-bottom: 1px solid antiquewhite;
+}
+.lau-ul > li > a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+
+}
+.red-prod {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+/* sinad */
+.adm-cont {
+    width: 400px;
+    margin: auto;
+    margin-top: 250px;
+}
+.adm-flex {
+    display: flex;
+    flex-direction: column;
+}
+.adm-p {
+    font-size: 25px;
+}
